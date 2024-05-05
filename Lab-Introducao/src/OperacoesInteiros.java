@@ -58,7 +58,7 @@ public class OperacoesInteiros {
 				}
 				else {
 					if (countValues != 0) {
-						average = sum / countValues; //calcula a media dos valores
+						average = (float) sum / countValues; //calcula a media dos valores
 	
 						System.out.printf("%d\n", countValues);
 						System.out.printf("%d\n", countPairs);
