@@ -43,5 +43,10 @@ public class CarroMain {
         
         System.out.println(descricaoMotorUm);
         System.out.println(descricaoMotorDois);
+        
+        //Teste da classe Carro
+        Carro carroUm = new Carro("DeLorean", "DMC-12", novoVazio, novaPlaca, motorUm);
+        
+        System.out.println(carroUm.getDescricao());
     }
 }
