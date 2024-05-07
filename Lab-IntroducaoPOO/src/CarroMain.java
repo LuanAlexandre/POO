@@ -21,9 +21,7 @@ public class CarroMain {
         
         System.out.println(descricao);
         System.out.println(descricaoVazio);
-        
-        System.out.println(idade);
-        System.out.println(idadeVazio);
+        System.out.println();
         
         //Teste da classe Placa
         Placa novaPlaca = new Placa();
@@ -34,5 +32,16 @@ public class CarroMain {
         
         System.out.println(descricaoPlaca);
         System.out.println(descricaoPlacaUm);
+        System.out.println();
+        
+        //Teste da classe Motor
+        Motor motorUm = new Motor();
+        Motor motorDois = new Motor(3, 5.9, 220);
+        
+        String descricaoMotorUm = motorUm.getDescricao();
+        String descricaoMotorDois = motorDois.getDescricao();
+        
+        System.out.println(descricaoMotorUm);
+        System.out.println(descricaoMotorDois);
     }
 }
