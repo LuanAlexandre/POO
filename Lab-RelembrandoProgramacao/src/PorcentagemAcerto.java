@@ -13,7 +13,6 @@ public class PorcentagemAcerto {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         
-        int[] answers = new int[100];
         int[] studentAnswers = new int[50];
         int[] trueAnswers = new int[50];
         int answer;
