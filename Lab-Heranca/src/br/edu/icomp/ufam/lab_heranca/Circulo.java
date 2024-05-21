@@ -8,14 +8,17 @@ public class Circulo extends FormaGeometrica {
         this.raio = raio;
     }
 
+    @Override
     public double getArea() {
         return Math.PI * Math.pow(this.raio, 2.0);
     }
 
+    @Override
     public double getPerimetro() {
         return 2.0 * Math.PI * this.raio;
     }
 
+    @Override
     public String toString() {
         String posicao = super.getPosString();
         double area = this.getArea();
