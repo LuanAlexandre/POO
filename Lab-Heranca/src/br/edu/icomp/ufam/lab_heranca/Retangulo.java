@@ -10,18 +10,21 @@ public class Retangulo extends FormaGeometrica{
         this.largura = largura;
     }
 
+    @Override
     public double getArea() {
         double area = this.altura * this.largura;
         
         return area;
     }
     
+    @Override
     public double getPerimetro() {
         double perimetro = 2*(this.altura + this.largura);
 
         return perimetro;
     }
 
+    @Override
     public String toString() {
         String posicao = getPosString();
         double area = getArea();
