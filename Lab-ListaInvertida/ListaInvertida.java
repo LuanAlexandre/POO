@@ -26,4 +26,8 @@ public class ListaInvertida {
             return true;
         }
     }
+
+    public LinkedList<String> busca(String palavra) {
+        return tabela.get(palavra);
+    }
 }
