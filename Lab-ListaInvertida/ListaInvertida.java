@@ -30,4 +30,9 @@ public class ListaInvertida {
     public LinkedList<String> busca(String palavra) {
         return tabela.get(palavra);
     }
+
+    @Override
+    public String toString() {
+        return tabela.toString();
+    }
 }
